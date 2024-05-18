@@ -1,0 +1,100 @@
+package iddhonzk3pq740gk3pq7jh2;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#CPort:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}
+/**
+@__ref <oiref:cpp#Class#CRingBuffer:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference5 {
+}
+/**
+@__ref <oiref:cpp#Class#CUartPort:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference6 {
+}
+/**
+@__ref <oiref:cpp#Class#CCanPort:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference12 {
+}
+/**
+@__ref <oiref:cpp#Class#CGateway:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}
+/**
+@__ref <oiref:cpp#Class#CPortFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference4 {
+}
+}/**
+
+@__tags
+@shapeType ClassDiagram
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAW6+wcQAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQACUZST01NLU5CMnQAD2NsQ29t
+bXVuaWNhdGlvbnQABUZyb21teHNxAH4AAgAAAW7JDnwAc3EAfgAFAAAAAXcEAAAACnNxAH4AB3QA
+CUZST01NLU5CMnQAF2NsQ29tbXVuaWNhdGlvbl9GYWN0b3J5dAAFRnJvbW14c3EAfgACAAABbuf0
+pABzcQB+AAUAAAABdwQAAAAKc3EAfgAHdAAJRlJPTU0tTkIydAAXY2xDb21tdW5pY2F0aW9uX0Zh
+Y3Rvcnl0AAVGcm9tbXh4
+*/
+class __tags {
+}/**
+@__options option.detail = Implementation 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:cpp#Class#CGateway:oiref>=840,-310,450,158,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CUartPort#m_rRingBuffer:oiref>=160,242,108,242:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CCanPort#m_rRingBufferRx:oiref>=330,610,70,610,70,442:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CPortFactory#lnkCUartPort:oiref>=1410,159,1410,350,1290,350:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#CGateway#m_portA:oiref>=488,-10,28,16,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#CGateway#m_portB:oiref>=368,-10,28,16,0:oigroup>
+<oigroup:<oiref:cpp#Class#CPortFactory:oiref>=930,10,900,149,0:oigroup>
+<oigroup:<oiref:cpp#Class#CPort:oiref>=250,10,390,206,0:oigroup>
+<oigroup:<oiref:cpp#Class#CRingBuffer:oiref>=10,220,220,222,0:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CGateway:oiref><Autodependency><oiref:cpp#Class#CPortFactory:oiref>=1290,-210,1470,-210,1470,10:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CPort#m_ringBufferRx:oiref>=250,90,50,90,50,220:oigroup>
+<oigroup:<oiref:cpp#Extends#CCanPort#CPort:oiref>=445,470,445,216:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CUartPort#m_rRingBufferTx:oiref>=550,381,230,381:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CUartPort#m_rRingBufferRx:oiref>=550,320,230,320:oigroup>
+<oigroup:<oiref:cpp#Class#CCanPort:oiref>=180,470,530,190,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CUartPort#lnkCRingBuffer:oiref>=160,241,103,241:oigroup>
+<oigroup:<oiref:cpp#Class#CUartPort:oiref>=550,260,740,190,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CCanPort#m_rRingBufferTx:oiref>=330,580,110,580,110,442:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CPortFactory#lnkCCanPort:oiref>=1470,159,1470,630,710,630:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CPort#lnkCRingBuffer:oiref>=120,90,50,90,50,200:oigroup>
+<oigroup:<oiref:cpp#Extends#CUartPort#CPort:oiref>=595,260,595,216:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#CPort#m_ringBufferTx:oiref>=61,200,15,16,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CGateway#m_portA:oiref>=840,-170,520,-170,520,10:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CPort#m_ringBufferTx:oiref>=250,110,80,110,80,220:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#CPort#m_ringBufferRx:oiref>=31,200,15,16,0:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CPortFactory:oiref><Autodependency><oiref:cpp#Class#CPort:oiref>=1380,159,1380,180,640,180:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CGateway#m_portB:oiref>=840,-220,400,-220,400,10:oigroup>
+*/
+class __positions {
+}
